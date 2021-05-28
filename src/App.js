@@ -1,5 +1,6 @@
 
 import './App.css';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 import {useState, useEffect} from 'react';
 import NavBar from './components/NavBar/NavBar.js'
@@ -39,13 +40,19 @@ function App() {
       loading ? <div className="loading"> <HashLoader  color={'36D7B7'} loading={loading} size={150} /> </div> :
       <div>
       <div className="overall">
+        <NavBar/>
+           <Router>
             
-            <NavBar/>
+            </Router>
+            
            
-           
+            
             <Home />
-          
+
             <About />
+           
+            
+            
             </div>
            
             

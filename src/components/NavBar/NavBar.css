@@ -1,48 +1,36 @@
-.navBar {
-  background-color: transparent;
-  display: flex;
-  justify-content: flex-end;
-  top: 0;
-  font-size: 0.9rem;
-  margin: 0% 0%;
-  transition: all .7s ease in;
- 
-}
 
-
-
-.navBarActive {
-  background-color: black;
+ .navBarActive {
+  background: transparent;
   transition: background-color 1.2s ease;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
+  align-items: center;
   font-size: 0.9rem;
   margin: 0% 0%;
   position: sticky;
   top: 0;
+  padding: 0.5rem;
+  font-size: 1.0rem;
+  text-decoration: none;
   
-}
+} 
 
-
-
-.logo {
-  width: 50px;
-
-}
-
-
-
-.tab {
-  margin: 1.5% 3%;
+ a {
+  margin: 1% 5%;
   color: whitesmoke;
- 
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  list-style-type: none ;
 }
 
-.tab:hover {
+
+.nav-links:hover {
   color: white;
 }
 
-.tab::after {
+.nav-links::after {
     content: '';
     display: block;
     width: 0;
@@ -51,17 +39,18 @@
     transition: width .3s;
 }
 
-.tab:hover::after {
+.nav-links:hover::after {
     width: 100%;
     transition: width .3s;
     color: white;
 } 
 
-.Mike {
+ .nav-link {
   margin: 1.5% 3%;
   color: white;
   display: flex;
   justify-content: flex-start;
-  margin-right: 55%;
+ 
+  z-index: 1;
 }
 

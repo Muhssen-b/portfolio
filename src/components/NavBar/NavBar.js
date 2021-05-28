@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from '../Home/Home.js';
+import {Link} from 'react-router-dom';
 
 
 
@@ -27,13 +28,15 @@ const NavBar = () => {
     return (
             <header> 
            
-            <div className = {navBar ? "navBar" : "navBarActive"}>
-               <div className= "Mike"> Muhssen</div>
-               <div className="tab"> Home </div>
-               <div className="tab"> Projects</div> 
-               <div className="tab">Contact</div>
-               <div className="tab">Resume</div>
-            
+            <div>
+              <ul className = "navBarActive">
+              <Link to ="/"> <li className= "nav-link"> Muhssen</li></Link>
+              <Link to= "/About"> <li className="nav-links"> About</li> </Link>
+              <Link to ='/Projects'> <li className="nav-links"> Projects</li></Link>
+              <Link to = "/Resume" > <li className="nav-links"> Resume</li></Link>
+              </ul>
+              
+               
             </div>
             
             </header>
