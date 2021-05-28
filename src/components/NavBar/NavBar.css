@@ -1,0 +1,67 @@
+.navBar {
+  background-color: transparent;
+  display: flex;
+  justify-content: flex-end;
+  top: 0;
+  font-size: 0.9rem;
+  margin: 0% 0%;
+  transition: all .7s ease in;
+ 
+}
+
+
+
+.navBarActive {
+  background-color: black;
+  transition: background-color 1.2s ease;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.9rem;
+  margin: 0% 0%;
+  position: sticky;
+  top: 0;
+  
+}
+
+
+
+.logo {
+  width: 50px;
+
+}
+
+
+
+.tab {
+  margin: 1.5% 3%;
+  color: whitesmoke;
+ 
+}
+
+.tab:hover {
+  color: white;
+}
+
+.tab::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: white;
+    transition: width .3s;
+}
+
+.tab:hover::after {
+    width: 100%;
+    transition: width .3s;
+    color: white;
+} 
+
+.Mike {
+  margin: 1.5% 3%;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  margin-right: 55%;
+}
+
