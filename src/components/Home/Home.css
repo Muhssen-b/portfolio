@@ -1,22 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
- display: flex;
- justify-content: center;
- align-items: center;
- height: 100vh;
-}
+
 
 i {
     position: relative;
     width: 60px;
     height: 60px;
-    color: black;
-    background-color: transparent;
+   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,6 +17,7 @@ i {
     margin: 1em;
     border-radius: 15%;
     transition: all .4s ease;
+    z-index: 999;
 
 } 
  i::before {
@@ -33,7 +27,6 @@ i {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #c32aa3;
     border-radius: 15%;
     transform: scale(1.1);
     z-index: -1;
@@ -50,7 +43,6 @@ i {
 }
 
 i:nth-child(4)::before {
-    background: #7289da;
 }
 
 i:hover::before {
@@ -74,16 +66,32 @@ i:hover:nth-child(3) {
 ;}
  
 
-.info {
-    text-align: center;
+.home {
+    background-repeat: no-repeat;
     color: white;
     font-family: "Open Sans";
+    font-size: 1.4rem;
+    background-size: cover ;
+    background-image: url("https://images.pexels.com/photos/32237/pexels-photo.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    width: 100%;
+    min-height:665px;
+    background-size: cover; /* or contain depending on what you want */
+    background-position: center center;
+    background-repeat: no-repeat;
     text-align: center;
-    font-size: 140%;
-    margin-top: 15%;
-    transition: color 1.2s ease;
+    
     
 } 
+
+.home-introduction {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    padding-top: 18rem;
+} 
+
+
+
 
 
 

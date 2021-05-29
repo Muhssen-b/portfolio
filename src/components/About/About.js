@@ -2,7 +2,7 @@ import React from 'react';
 import "./About.css"
 
  
-function About() {
+export const About = () => {
   
  
   return(
@@ -20,7 +20,7 @@ function About() {
         <h3 className="description__title2">
             When i'm not behind a computer i enjoy soccer(football), reading and chess
         </h3>
-        <div className="description__info2">
+       {/* <div className="description__info2">
         <div className="description__title3">
             SELF PROCLOMATIONS
         </div>
@@ -29,7 +29,7 @@ function About() {
         <img src="https://img.freepik.com/free-vector/virtual-sitter-online-babysitting-service-remote-teaching-concept_73948-170.jpg?size=626&ext=jpg" alt="" />
         <img src="https://cdn2.iconfinder.com/data/icons/sports-i-color/300/15-512.png" alt="" />
         </div>
-        </div>
+  </div> */}
       </div>
 
   )

@@ -1,29 +1,30 @@
 import React from 'react';
+import NavBar from '../NavBar/NavBar';
 import './Home.css'
 
 
-function Home() {
+export const Home = () => {
   
  
   return (
-  <div>
   
-  <div className="info">
-     
+  <div className="home">
+      <div className="home-introduction"></div>
       <h1> HI, I'M MUHSSEN</h1>
       <h2>Graduate Software Engineer</h2>
-    
-      </div>
-      
       
       <i className = "fab fa-linkedin fa-2x"></i>
       <i className = "fab fa-twitter fa-2x"></i>
       <i className = "fab fa-github fa-2x"></i>
+      
+
+    </div>
+     
 
       
 
 
- </div>
+
   )
 }
  
