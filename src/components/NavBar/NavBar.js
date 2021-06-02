@@ -30,8 +30,8 @@ const NavBar = () => {
            
             <div>
               <ul className = "navBarActive">
-              <i class="fab fa-maxcdn"></i>
-              <Link to ="/"> <li className= "nav-link"> Muhssen</li></Link>
+              
+              <Link to ="/" className="nav-link"> <li> Muhssen</li></Link>
               <Link to= "/About"> <li className="nav-links"> About</li> </Link>
               <Link to ='/Projects'> <li className="nav-links"> Projects</li></Link>
               <Link to = "/Resume" > <li className="nav-links"> Resume</li></Link>
