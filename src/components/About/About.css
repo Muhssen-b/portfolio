@@ -129,6 +129,8 @@ span {
         font-size: 0.6rem;
         margin-top: 30px;
         margin-bottom: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
     
     .description__title3{
@@ -144,6 +146,7 @@ span {
         border-radius: 1%;
     }
     
+   
    
 
 }

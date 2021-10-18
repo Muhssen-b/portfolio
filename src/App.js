@@ -7,6 +7,7 @@ import NavBar from './components/NavBar/NavBar.js'
 import HashLoader from "react-spinners/HashLoader";
 import {Home} from "./components/Home/Home";
 import {About} from './components/About/About.js';
+import {Resume} from './components/Resume/Resume.js';
 import {Contact} from './components/Contact/Contact.js' ;
 import {Projects} from './components/Projects/Projects.js';
 
@@ -48,6 +49,7 @@ function App() {
               <Route path = '/about' exact component = {About} />
               <Route path = '/Projects' exact component = {Projects} />
                <Route path = '/about' exact component = {About} />
+               <Route path ='/resume' exact component = {Resume} />
               </Switch>
            
             </Router>

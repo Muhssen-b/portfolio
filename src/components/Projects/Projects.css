@@ -1,0 +1,55 @@
+.project {
+    transition: transform .6s; /* Animation */
+    cursor: pointer;
+    height: 280px;
+    width: 350px;
+    margin-top: 90px;
+}
+
+
+.project:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    cursor: pointer;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+.caption{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 440px)
+{
+    .project {
+    transition: transform .6s; /* Animation */
+    cursor: pointer;
+    height: 70px;
+    width: 100px;
+    margin-top: 90px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .caption{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        margin-top: 30px;
+        font-size: 8px;
+    }
+
+
+}
+
+
+

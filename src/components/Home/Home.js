@@ -22,7 +22,6 @@ export const Home = () => {
       <h1> HI, I'M MUHSSEN <span><i class="far fa-smile"></i></span></h1>
       <h2>Graduate Software Engineer</h2>
       <div className="home-contacts">
-      <a onClick={event => window.location.href="https://www.linkedin.com/in/muhssen-benabdelouhed-079301158/?originalSubdomain=au"}><i className = "fab fa-linkedin fa-2x"></i></a>
       <a onClick={event =>  window.location.href='https://github.com/Muhssen-b'}><i className = "fab fa-github fa-2x"></i></a>
       <i className = "fab twitter fa-2x"></i>
            </div>

@@ -34,7 +34,7 @@ const NavBar = () => {
               <Link to ="/" className="nav-link"> <li> Muhssen</li></Link>
               <Link to= "/About"> <li className="nav-links"> About</li> </Link>
               <Link to ='/Projects'> <li className="nav-links"> Projects</li></Link>
-              <Link to = "/Resume" > <li className="nav-links"> Resume</li></Link>
+              <Link to = "/Resume" > <li className="nav-links"> Resume & Contact</li></Link>
               </ul>
               
                
