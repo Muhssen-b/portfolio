@@ -22,16 +22,6 @@ export const About = () => {
         <h3 className="description__info">
             When i'm not behind a computer i enjoy soccer(football), reading and chess
         </h3>
-       {/* <div className="description__info2">
-        <div className="description__title3">
-            SELF PROCLOMATIONS
-        </div>
-        <div className = "description__hobbies">
-        <img src="https://images.vexels.com/media/users/3/218082/isolated/preview/9871b275991ebb5704bf6fd6bff81c1a-male-soccer-player-passing-ball-by-vexels.png" alt="" />
-        <img src="https://img.freepik.com/free-vector/virtual-sitter-online-babysitting-service-remote-teaching-concept_73948-170.jpg?size=626&ext=jpg" alt="" />
-        <img src="https://cdn2.iconfinder.com/data/icons/sports-i-color/300/15-512.png" alt="" />
-        </div>
-  </div> */}
       </div>
 
   )

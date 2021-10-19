@@ -22,14 +22,14 @@ export const Home = () => {
       <h1> HI, I'M MUHSSEN <span><i class="far fa-smile"></i></span></h1>
       <h2>Graduate Software Engineer</h2>
       <div className="home-contacts">
-      <a onClick={event =>  window.location.href='https://github.com/Muhssen-b'}><i style={{color: 'black'}} className = "fab fa-github fa-2x"></i></a>
-      <i className = "fab twitter fa-2x"></i>
-           </div>
+      <a onClick={event =>  window.location.href='https://twitter.com/99Muhssen'}><i style={{color: '#1DA1F2'}} className="fab fa-twitter fa-2x" ></i></a> 
+       <a onClick={event =>  window.location.href='https://github.com/Muhssen-b'}><i style={{color: '#14171A'}} className = "fab fa-github fa-2x"></i></a> 
+        <a onClick={event =>  window.location.href='https://www.linkedin.com/in/muhssen-benabdelouhed-079301158/'}><i style={{color: '#0072b1'}} className = "fab fa-linkedin fa-2x"></i></a> 
            </div>
           </div>
-      
+        </div>
       </div>
-
+    
     </div>
      
 
