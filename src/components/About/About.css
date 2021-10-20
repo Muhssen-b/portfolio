@@ -72,9 +72,7 @@ span {
 @media screen and (max-width: 420px)
 {
 
-    .description{
-        margin-top: 1rem;
-    }
+    
     
     .description__title {
         text-align: center;
@@ -122,29 +120,7 @@ span {
         height: 0%;
     }
     
-    .description__title2 {
-        text-align: center;
-        text-decoration: none;
-        font-family: "Open Sans";
-        font-size: 0.6rem;
-        margin-top: 30px;
-        margin-bottom: 5%;
-        margin-right: 5%;
-        margin-left: 5%;
-    }
-    
-    .description__title3{
-        margin-top: 10%;
-        font-size: 1.5rem;
-        margin-bottom: 6%;
-    }
-    .description__info2 {
-        background-color: 	#D3D3D3;
-        text-align: center;
-        margin-left: 10%;
-        margin-right: 10%;
-        border-radius: 1%;
-    }
+   
     
    
    

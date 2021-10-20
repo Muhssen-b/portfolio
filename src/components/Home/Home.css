@@ -53,8 +53,12 @@ h2{
     display: flex;
     justify-content: center;
     flex-direction: row;
-    margin-top: 50px;
+    margin-top: 90px;
     color: red;
+}
+
+.home-contacts a {
+    margin-left: 10px;
 }
 
 .twitter{
@@ -73,11 +77,12 @@ h2{
 
    
    
-    .home-contacts {
+    .home-contacts > a {
         cursor: pointer;
-        margin-left: 3px;
+        margin-left: 15px;
     }
-    
+
+   
     
      .image {
          height: 290px;
@@ -86,10 +91,7 @@ h2{
      }
      
     
-    i {
-        margin-left: 0px;
-        height: 100px;
-    }
+   
     .home {
         font-family: "Open Sans";
         font-size: 0.4rem;
@@ -117,10 +119,7 @@ h2{
     }
 
    
-   i {
-       height: 10px;
-       width: 10px;
-   }
+   
 
 }
 
